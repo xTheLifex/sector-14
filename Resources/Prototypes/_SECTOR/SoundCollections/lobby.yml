@@ -1,0 +1,8 @@
+- type: soundCollection
+  id: LobbyMusic
+  files:
+  - /Audio/_SECTOR/Lobby/faith.ogg # Rod Stewart - Faith of the Heart
+  - /Audio/_SECTOR/Lobby/login.ogg # Star Trek Online - Login Mix
+  - /Audio/_SECTOR/Lobby/outro.ogg # M83 - Outro
+  - /Audio/_SECTOR/Lobby/ftl.ogg # Stellaris - Faster than Light
+  - /Audio/_SECTOR/Lobby/nebula.ogg # Stellaris - Distant Nebula
