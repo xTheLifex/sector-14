@@ -1,0 +1,63 @@
+- type: guideEntry
+  id: SectorRuleset
+  name: guide-entry-sector-rules
+  text: "/ServerInfo/_SECTOR/Guidebook/Rules/SectorRuleset.xml"
+  priority: -2
+  ruleEntry: true
+  children:
+  - SectorRule0
+  - SectorRule1
+  - SectorRule2
+  - SectorRule3
+  - SectorRule4
+  - SectorRule5
+  - SectorRule6
+  - SectorRule7
+
+- type: guideEntry
+  id: SectorRule0
+  name: guide-entry-sector-rule-0
+  text: "/ServerInfo/_SECTOR/Guidebook/Rules/0_Experimental.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: SectorRule1
+  name: guide-entry-sector-rule-1
+  text: "/ServerInfo/_SECTOR/Guidebook/Rules/1_Creation.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: SectorRule2
+  name: guide-entry-sector-rule-2
+  text: "/ServerInfo/_SECTOR/Guidebook/Rules/2_Conduct.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: SectorRule3
+  name: guide-entry-sector-rule-3
+  text: "/ServerInfo/_SECTOR/Guidebook/Rules/3_Saving.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: SectorRule4
+  name: guide-entry-sector-rule-4
+  text: "/ServerInfo/_SECTOR/Guidebook/Rules/4_Bugs.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: SectorRule5
+  name: guide-entry-sector-rule-5
+  text: "/ServerInfo/_SECTOR/Guidebook/Rules/5_Severability.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: SectorRule6
+  name: guide-entry-sector-rule-6
+  text: "/ServerInfo/_SECTOR/Guidebook/Rules/6_Liability.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: SectorRule7
+  name: guide-entry-sector-rule-7
+  text: "/ServerInfo/_SECTOR/Guidebook/Rules/7_Enforcement.xml"
+  ruleEntry: true
