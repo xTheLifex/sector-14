@@ -30,6 +30,8 @@ namespace Content.Client.Lobby
         private ClientGameTicker _gameTicker = default!;
         private ContentAudioSystem _contentAudioSystem = default!;
 
+        private float _backgroundTransition = 1.0f;
+
         protected override Type? LinkedScreenType { get; } = typeof(LobbyGui);
         public LobbyGui? Lobby;
 
@@ -149,6 +151,15 @@ namespace Content.Client.Lobby
                 }
             }
 
+            // Images transition
+            var previousOpacity = 1.0f - _backgroundTransition;
+            var currentOpacity = _backgroundTransition;
+
+            Lobby!.Background.Modulate = Lobby!.Background.Modulate with { A = currentOpacity };
+            Lobby!.BackgroundTransition.Modulate = Lobby!.BackgroundTransition.Modulate with { A = previousOpacity };
+
+            _backgroundTransition = Math.Clamp(_backgroundTransition + e.DeltaSeconds, 0.0f, 1.0f);
+
             Lobby!.StartTime.Text = Loc.GetString("lobby-state-round-start-countdown-text", ("timeLeft", text));
         }
 
@@ -219,6 +230,15 @@ namespace Content.Client.Lobby
 
         private void UpdateLobbyBackground()
         {
+            if (_gameTicker.PreviousLobbyBackground != null)
+            {
+                Lobby!.BackgroundTransition.Texture = _resourceCache.GetResource<TextureResource>(_gameTicker.PreviousLobbyBackground );
+            }
+            else
+            {
+                Lobby!.BackgroundTransition.Texture = null;
+            }
+
             if (_gameTicker.LobbyBackground != null)
             {
                 Lobby!.Background.Texture = _resourceCache.GetResource<TextureResource>(_gameTicker.LobbyBackground );
@@ -228,6 +248,7 @@ namespace Content.Client.Lobby
                 Lobby!.Background.Texture = null;
             }
 
+            _backgroundTransition = 0.0f;
         }
 
         private void SetReady(bool newReady)

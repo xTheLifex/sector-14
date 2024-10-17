@@ -14,7 +14,7 @@ public sealed partial class GameTicker
     private List<ResPath>? _lobbyBackgrounds;
 
     private static readonly string[] WhitelistedBackgroundExtensions = new string[] {"png", "jpg", "jpeg", "webp"};
-
+    private static float lobbyImageTimer = 0.0f;
     private void InitializeLobbyBackground()
     {
         _lobbyBackgrounds = _prototypeManager.EnumeratePrototypes<LobbyBackgroundPrototype>()
@@ -23,6 +23,19 @@ public sealed partial class GameTicker
             .ToList();
 
         RandomizeLobbyBackground();
+    }
+
+    public void UpdateLobbyImage(float frameTime)
+    {
+        base.Update(frameTime);
+        if (lobbyImageTimer <= 0.0f)
+        {
+            lobbyImageTimer = 30.0f + _robustRandom.NextFloat(0.0f, 5.0f);
+            RandomizeLobbyBackground();
+            SendStatusToAll();
+        }
+
+        lobbyImageTimer -= frameTime;
     }
 
     private void RandomizeLobbyBackground() {
