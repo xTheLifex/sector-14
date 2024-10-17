@@ -1,0 +1,237 @@
+# Star Trek - New Civilizations
+
+- type: lobbyBackground
+  id: NewCivilizations1
+  background: /Textures/_SECTOR/LobbyScreens/NC1.png
+
+- type: lobbyBackground
+  id: NewCivilizations2
+  background: /Textures/_SECTOR/LobbyScreens/NC2.png
+
+- type: lobbyBackground
+  id: NewCivilizations3
+  background: /Textures/_SECTOR/LobbyScreens/NC3.png
+
+- type: lobbyBackground
+  id: NewCivilizations4
+  background: /Textures/_SECTOR/LobbyScreens/NC4.png
+
+- type: lobbyBackground
+  id: NewCivilizations5
+  background: /Textures/_SECTOR/LobbyScreens/NC5.png
+
+- type: lobbyBackground
+  id: NewCivilizations6
+  background: /Textures/_SECTOR/LobbyScreens/NC6.png
+
+- type: lobbyBackground
+  id: NewCivilizations7
+  background: /Textures/_SECTOR/LobbyScreens/NC7.png
+
+- type: lobbyBackground
+  id: NewCivilizations8
+  background: /Textures/_SECTOR/LobbyScreens/NC8.png
+
+- type: lobbyBackground
+  id: NewCivilizations9
+  background: /Textures/_SECTOR/LobbyScreens/NC9.png
+
+- type: lobbyBackground
+  id: NewCivilizations10
+  background: /Textures/_SECTOR/LobbyScreens/NC10.png
+
+- type: lobbyBackground
+  id: NewCivilizations11
+  background: /Textures/_SECTOR/LobbyScreens/NC11.png
+
+- type: lobbyBackground
+  id: NewCivilizations12
+  background: /Textures/_SECTOR/LobbyScreens/NC12.png
+
+- type: lobbyBackground
+  id: NewCivilizations13
+  background: /Textures/_SECTOR/LobbyScreens/NC13.png
+
+- type: lobbyBackground
+  id: NewCivilizations14
+  background: /Textures/_SECTOR/LobbyScreens/NC14.png
+
+- type: lobbyBackground
+  id: NewCivilizations15
+  background: /Textures/_SECTOR/LobbyScreens/NC15.png
+
+- type: lobbyBackground
+  id: NewCivilizations16
+  background: /Textures/_SECTOR/LobbyScreens/NC16.png
+
+- type: lobbyBackground
+  id: NewCivilizations17
+  background: /Textures/_SECTOR/LobbyScreens/NC17.png
+
+- type: lobbyBackground
+  id: NewCivilizations18
+  background: /Textures/_SECTOR/LobbyScreens/NC18.png
+
+- type: lobbyBackground
+  id: NewCivilizations19
+  background: /Textures/_SECTOR/LobbyScreens/NC19.png
+
+- type: lobbyBackground
+  id: NewCivilizations20
+  background: /Textures/_SECTOR/LobbyScreens/NC20.png
+
+- type: lobbyBackground
+  id: NewCivilizations21
+  background: /Textures/_SECTOR/LobbyScreens/NC21.png
+
+- type: lobbyBackground
+  id: NewCivilizations22
+  background: /Textures/_SECTOR/LobbyScreens/NC22.png
+
+# Star Trek - New Horizons
+
+- type: lobbyBackground
+  id: NewHorizons1
+  background: /Textures/_SECTOR/LobbyScreens/NH1.png
+
+- type: lobbyBackground
+  id: NewHorizons2
+  background: /Textures/_SECTOR/LobbyScreens/NH2.png
+
+- type: lobbyBackground
+  id: NewHorizons3
+  background: /Textures/_SECTOR/LobbyScreens/NH3.png
+
+- type: lobbyBackground
+  id: NewHorizons4
+  background: /Textures/_SECTOR/LobbyScreens/NH4.png
+
+- type: lobbyBackground
+  id: NewHorizons5
+  background: /Textures/_SECTOR/LobbyScreens/NH5.png
+
+- type: lobbyBackground
+  id: NewHorizons6
+  background: /Textures/_SECTOR/LobbyScreens/NH6.png
+
+- type: lobbyBackground
+  id: NewHorizons7
+  background: /Textures/_SECTOR/LobbyScreens/NH7.png
+
+- type: lobbyBackground
+  id: NewHorizons8
+  background: /Textures/_SECTOR/LobbyScreens/NH8.png
+
+- type: lobbyBackground
+  id: NewHorizons9
+  background: /Textures/_SECTOR/LobbyScreens/NH9.png
+
+- type: lobbyBackground
+  id: NewHorizons10
+  background: /Textures/_SECTOR/LobbyScreens/NH10.png
+
+- type: lobbyBackground
+  id: NewHorizons11
+  background: /Textures/_SECTOR/LobbyScreens/NH11.png
+
+- type: lobbyBackground
+  id: NewHorizons12
+  background: /Textures/_SECTOR/LobbyScreens/NH12.png
+
+- type: lobbyBackground
+  id: NewHorizons13
+  background: /Textures/_SECTOR/LobbyScreens/NH13.png
+
+- type: lobbyBackground
+  id: NewHorizons14
+  background: /Textures/_SECTOR/LobbyScreens/NH14.png
+
+- type: lobbyBackground
+  id: NewHorizons15
+  background: /Textures/_SECTOR/LobbyScreens/NH15.png
+
+- type: lobbyBackground
+  id: NewHorizons16
+  background: /Textures/_SECTOR/LobbyScreens/NH16.png
+
+- type: lobbyBackground
+  id: NewHorizons17
+  background: /Textures/_SECTOR/LobbyScreens/NH17.png
+
+- type: lobbyBackground
+  id: NewHorizons18
+  background: /Textures/_SECTOR/LobbyScreens/NH18.png
+
+- type: lobbyBackground
+  id: NewHorizons19
+  background: /Textures/_SECTOR/LobbyScreens/NH19.png
+
+- type: lobbyBackground
+  id: NewHorizons20
+  background: /Textures/_SECTOR/LobbyScreens/NH20.png
+
+- type: lobbyBackground
+  id: NewHorizons21
+  background: /Textures/_SECTOR/LobbyScreens/NH21.png
+
+- type: lobbyBackground
+  id: NewHorizons22
+  background: /Textures/_SECTOR/LobbyScreens/NH22.png
+
+- type: lobbyBackground
+  id: NewHorizons23
+  background: /Textures/_SECTOR/LobbyScreens/NH23.png
+
+- type: lobbyBackground
+  id: NewHorizons24
+  background: /Textures/_SECTOR/LobbyScreens/NH24.png
+
+- type: lobbyBackground
+  id: NewHorizons25
+  background: /Textures/_SECTOR/LobbyScreens/NH25.png
+
+- type: lobbyBackground
+  id: NewHorizons26
+  background: /Textures/_SECTOR/LobbyScreens/NH26.png
+
+- type: lobbyBackground
+  id: NewHorizons27
+  background: /Textures/_SECTOR/LobbyScreens/NH27.png
+
+# Stellaris
+
+- type: lobbyBackground
+  id: Stellaris1
+  background: /Textures/_SECTOR/LobbyScreens/Stellaris1.png
+
+- type: lobbyBackground
+  id: Stellaris2
+  background: /Textures/_SECTOR/LobbyScreens/Stellaris2.png
+
+- type: lobbyBackground
+  id: Stellaris3
+  background: /Textures/_SECTOR/LobbyScreens/Stellaris3.png
+
+- type: lobbyBackground
+  id: Stellaris4
+  background: /Textures/_SECTOR/LobbyScreens/Stellaris4.png
+
+- type: lobbyBackground
+  id: Stellaris5
+  background: /Textures/_SECTOR/LobbyScreens/Stellaris5.png
+
+- type: lobbyBackground
+  id: Stellaris6
+  background: /Textures/_SECTOR/LobbyScreens/Stellaris6.png
+
+- type: lobbyBackground
+  id: Stellaris7
+  background: /Textures/_SECTOR/LobbyScreens/Stellaris7.png
+
+- type: lobbyBackground
+  id: Stellaris8
+  background: /Textures/_SECTOR/LobbyScreens/Stellaris8.png
+
+- type: lobbyBackground
+  id: Stellaris9
+  background: /Textures/_SECTOR/LobbyScreens/Stellaris9.png
