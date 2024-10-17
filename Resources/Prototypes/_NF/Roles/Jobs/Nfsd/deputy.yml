@@ -3,6 +3,8 @@
   name: job-name-deputy
   description: job-description-deputy
   playTimeTracker: JobSecurityOfficer
+  whitelisted: true
+  whitelistRequired: true
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 43200 # 12 hours

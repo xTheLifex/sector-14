@@ -3,6 +3,8 @@
   name: job-name-pirate
   description: job-description-pirate
   playTimeTracker: JobPirate
+  whitelisted: true
+  whitelistRequired: true
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 86400 # 24 hours

@@ -3,6 +3,8 @@
   name: job-name-security-guard
   description: job-description-security-guard
   playTimeTracker: JobSecurityGuard
+  whitelisted: true
+  whitelistRequired: true
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 36000 # Frontier - 10 hrs

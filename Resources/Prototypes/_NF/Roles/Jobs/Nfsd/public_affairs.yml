@@ -3,6 +3,8 @@
   name: job-name-pal
   description: job-description-public-affairs-liaison
   playTimeTracker: JobPublicAffairsLiaison
+  whitelisted: true
+  whitelistRequired: true
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 43200 # 12 hours

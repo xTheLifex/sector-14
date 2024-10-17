@@ -3,6 +3,8 @@
   name: job-name-senior-officer
   description: job-description-senior-officer
   playTimeTracker: JobSeniorOfficer
+  whitelisted: true
+  whitelistRequired: true
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 108000 # 30 hours
