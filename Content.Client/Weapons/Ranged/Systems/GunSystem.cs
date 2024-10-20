@@ -114,6 +114,7 @@ public sealed partial class GunSystem : SharedGunSystem
             sprite.LayerSetSprite(EffectLayers.Unshaded, rsi);
             sprite.LayerSetState(EffectLayers.Unshaded, rsi.RsiState);
             sprite.Scale = new Vector2(a.Distance, 1f);
+            sprite.Color = ev.SpriteColor;
             sprite[EffectLayers.Unshaded].Visible = true;
 
             var anim = new Animation()

@@ -474,6 +474,7 @@ public sealed partial class GunSystem : SharedGunSystem
             RaiseNetworkEvent(new HitscanEvent
             {
                 Sprites = sprites,
+                SpriteColor = hitscan.SpriteColor,
             }, Filter.Pvs(fromCoordinates, entityMan: EntityManager));
         }
     }

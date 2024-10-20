@@ -1,0 +1,31 @@
+- type: hitscan
+  id: Phaser
+  damage:
+    types:
+      Heat: 15
+  color: '#FF4400FF'
+  muzzleFlash:
+    sprite: _SECTOR/Objects/Weapons/Projectiles/projectiles.rsi
+    state: muzzle_phaser
+  travelFlash:
+    sprite: _SECTOR/Objects/Weapons/Projectiles/projectiles.rsi
+    state: phaser
+  impactFlash:
+    sprite: _SECTOR/Objects/Weapons/Projectiles/projectiles.rsi
+    state: impact_phaser
+
+- type: hitscan
+  id: PhaserBlue
+  damage:
+    types:
+      Heat: 15
+  color: '#03e3fc'
+  muzzleFlash:
+    sprite: _SECTOR/Objects/Weapons/Projectiles/projectiles.rsi
+    state: muzzle_phaser
+  travelFlash:
+    sprite: _SECTOR/Objects/Weapons/Projectiles/projectiles.rsi
+    state: phaser
+  impactFlash:
+    sprite: _SECTOR/Objects/Weapons/Projectiles/projectiles.rsi
+    state: impact_phaser

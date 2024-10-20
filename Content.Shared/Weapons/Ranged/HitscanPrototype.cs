@@ -32,6 +32,9 @@ public sealed partial class HitscanPrototype : IPrototype, IShootable
     [DataField("collisionMask")]
     public int CollisionMask = (int) CollisionGroup.Opaque;
 
+    [DataField("color")]
+    public Color SpriteColor = Color.White;
+
     /// <summary>
     /// What we count as for reflection.
     /// </summary>

@@ -1,0 +1,57 @@
+- type: entity
+  id: BaseWeaponPhaser
+  parent: BaseWeaponBattery
+  abstract: true
+  components:
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 100
+  - type: Gun
+    fireRate: 0.5
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/_SECTOR/Weapons/Phaser/TOSPhaser.ogg
+  - type: Battery
+    maxCharge: 1000
+    startingCharge: 1000
+  - type: MagazineVisuals
+    magState: mag
+    steps: 5
+    zeroVisible: false
+  - type: Appearance
+  - type: StaticPrice
+    price: 500
+  - type: HitscanBatteryAmmoProvider
+    proto: Phaser
+    fireCost: 1.0
+  - type: Item
+    size: Normal
+
+- type: entity
+  id: BaseWeaponPhaserSmall
+  parent: BaseWeaponPhaser
+  abstract: true
+  components:
+  - type: Item
+    size: Normal
+
+- type: entity
+  name: phaser
+  parent: [ BaseWeaponPhaserSmall ] # Frontier: BaseMajorContraband<BaseC1Contraband
+  id: WeaponPhaser
+  description: TODO star trek description
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Battery/laser_retro.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-unshaded-4
+      map: ["enum.GunVisualLayers.MagUnshaded"]
+      shader: unshaded
+  - type: HitscanBatteryAmmoProvider
+    proto: PhaserBlue
+    fireCost: 1.0
+
