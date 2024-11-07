@@ -2,7 +2,7 @@
   id: Phaser
   damage:
     types:
-      Heat: 15
+      Heat: 150
   color: '#FF4400FF'
   muzzleFlash:
     sprite: _SECTOR/Objects/Weapons/Projectiles/projectiles.rsi
@@ -18,7 +18,7 @@
   id: PhaserBlue
   damage:
     types:
-      Heat: 15
+      Heat: 150
   color: '#03e3fc'
   muzzleFlash:
     sprite: _SECTOR/Objects/Weapons/Projectiles/projectiles.rsi

@@ -1,0 +1,51 @@
+- type: entity
+  parent: [ClothingBeltStorageBase]
+  id: ClothingPersonalShieldBase
+  name: base personal shield
+  abstract: true
+  description: Can hold things, and protects the user against damage.
+  components:
+  - type: Sprite
+    sprite: Clothing/Belt/security.rsi
+  - type: Clothing
+    sprite: Clothing/Belt/security.rsi
+  - type: ItemMapper
+    mapLayers:
+      flashbang:
+        whitelist:
+          components:
+          - FlashOnTrigger
+      stunbaton:
+        whitelist:
+          components:
+          - Stunbaton
+      tear_gas_grenade:
+        whitelist:
+          components:
+          - SmokeOnTrigger
+    sprite: Clothing/Belt/belt_overlay.rsi
+  - type: Appearance
+  - type: EnergyShield
+    color: '#03e3fc'
+    nullfiers: ["Heat", "Cold", "Blunt", "Cellular", "Caustic", "Piercing", "Radiation", "Shock", "Slash", "Structural"]
+
+
+- type: entity
+  parent: [ClothingPersonalShieldBase]
+  id: ClothingPersonalShieldBasic
+  name: basic personal shield
+  description: Can hold things, and protects the user against damage.
+  components:
+  - type: EnergyShield
+    color: '#03e3fc'
+
+
+- type: entity
+  parent: [ClothingPersonalShieldBase]
+  id: ClothingPersonalShieldRegenerative
+  name: regenerative personal shield
+  description: Can hold things, and protects the user against damage.
+  components:
+  - type: EnergyShield
+    color: '#03e3fc'
+    rechargeRate: 12.0
